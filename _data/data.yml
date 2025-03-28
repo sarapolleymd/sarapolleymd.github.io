@@ -34,13 +34,15 @@ clinical-services:
 speaking:
   title: Speaking
   summary: |
+    - [Sara J. Polley, MD, FAPA, FASAM](https://annualconference.asam.org/aaStatic.asp?SFP=WVRCTEhaVlBAMTg4NDZAQWJvdXQgQVNBTSA1NnRoIEFubnVhbCBDb25mZXJlbmNl), The ASAM 56th Annual Conference - Innovations in Addiction Medicine and Science
 
-# consulting:
-#   title: Consulting
-#   summary: |
-#     - Insurance Consultation
-#     - Horowitz Health
-#     - Cannabis Advisory Council
+consulting:
+  title: Consulting
+  summary: |
+    - [Marijuana Legalization and the Prevention of Youth Cannabis Use](https://www.pathlms.com/naadac/courses/87133)
+    - Insurance Consultation
+    - [The Recovery Academy, Horowitz Health](https://www.recoveryacademymn.com/about-us/our-team)
+    - [Cannabis Advisory Council](https://mn.gov/ocm/about-us/cannabis-advisory-council/overview.jsp)
 
 education:
   title: Education
@@ -110,9 +112,15 @@ publications:
   title: Publications
   intro: |
   papers:
+  - title: Dr. Sara Polley's Story
+    link: "https://www.asam.org/membership/why-i-treat-addiction/stories/dr.-sara-polley's-story"
+    authors: Dr. Sara Polley, M.D. for American Society of Addiction Medicine
   - title: Clinical Pearls For Treatment of Substance Use Disorders
     link: "https://prairie-care.com/resources/type/blog/clinical-pearls-for-treatment-of-substance-use-disorders/"
-    authors: Dr. Sara Polley, M.D.
+    authors: Dr. Sara Polley, M.D. for PrairieCare
+  - title: Motivational Interviewing Therapy for Substance Use
+    link: "https://prairie-care.com/resources/type/blog/motivational-interviewing-therapy-for-substance-use-by-sara-polley-md"
+    authors: Dr. Sara Polley, M.D. for PrairieCare
 
 # recommendations:
 #   title: Recommendations

@@ -1,0 +1,17 @@
+{% assign consulting = site.data.data.consulting %}
+{% if consulting %}
+<section class="section summary-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-briefcase-medical fa-stack-2x"></i>
+      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ consulting.title }}
+  </h2>
+
+  <div class="summary">
+    {{ consulting.summary | markdownify }}
+  </div><!--//summary-->
+</section><!--//section-->
+{% endif %}
