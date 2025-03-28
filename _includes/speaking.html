@@ -1,0 +1,19 @@
+{% assign speaking = site.data.data.speaking %}
+{% if speaking %}
+<section class="section summary-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ speaking.title }}
+  </h2>
+
+  <div class="summary">
+    {{ speaking.summary | markdownify }}
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cfjO-wqw9qg?si=No0jc09rtqfsbZyK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div><!--//summary-->
+</section><!--//section-->
+{% endif %}
